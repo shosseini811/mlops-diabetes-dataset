@@ -9,7 +9,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # Load the dataset
-DATA_PATH = "diabetes.csv"  
+DATA_PATH = "diabetes.csv"
 diabetes_data = pd.read_csv(DATA_PATH)
 
 # Split the data into training and testing sets
