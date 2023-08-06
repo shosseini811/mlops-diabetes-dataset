@@ -1,3 +1,7 @@
+"""
+Module for predicting diabetes using logistic regression.
+"""
+
 # Import necessary libraries
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -5,8 +9,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # Load the dataset
-data_path = "diabetes.csv"  
-diabetes_data = pd.read_csv(data_path)
+DATA_PATH = "diabetes.csv"  
+diabetes_data = pd.read_csv(DATA_PATH)
 
 # Split the data into training and testing sets
 X = diabetes_data.drop("Outcome", axis=1)
