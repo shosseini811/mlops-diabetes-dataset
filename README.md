@@ -2,4 +2,4 @@
 
 ![Build Status AWS](https://codebuild.us-east-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiaGlGTGptVTBCb1gzTnNUS2hVaVJkTjgxQUd5a0daUDlMWW5iQWluRWZoNWdaOWtyQ3pwQkJKVDZzMWlObENpK1FndkYvUEJSUVFaNzdNNUY5aEQvUS84PSIsIml2UGFyYW1ldGVyU3BlYyI6ImsxUVlUN3ZXbVVlRExaMTIiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
-# mlops-diabetes-dataset
+In this repo, we delve into the implementation of Continuous Integration (CI) using GitHub Actions, a powerful CI/CD service integrated within GitHub. The article breaks down the components of a sample workflow that employs logistic regression to predict diabetes, explaining each step in detail—from setting up Python to linting and code formatting. Emphasizing the advantages of GitHub Actions, such as its native integration with GitHub and matrix builds, the article also offers best practices to optimize CI processes and potential extensions to enhance the workflow further. By the end, readers gain a holistic understanding of how to harness GitHub Actions for efficient and streamlined software development.
