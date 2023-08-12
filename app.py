@@ -35,4 +35,4 @@ iface = Interface(
 # Check if the interface is running, close it, and launch a new one
 # check the status of gradio
 # launch the interface
-iface.launch(server_port=7871, server_name="0.0.0.0")
+iface.launch(server_port=7860, server_name="0.0.0.0")

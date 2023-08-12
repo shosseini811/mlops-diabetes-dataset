@@ -55,7 +55,7 @@ cover/
 
 .DS_Store
 videos/
-images/
+# images/
 # Translations
 *.mo
 *.pot
