@@ -13,8 +13,8 @@ COPY requirements.txt /app
 RUN pip install --upgrade pip && \
     pip install -r requirements.txt
 
-# Make port 7871 available to the world outside this container (Gradio default port)
-EXPOSE 7871
+# Make port 7860 available to the world outside this container
+EXPOSE 7860
 
 # Run app.py when the container launches
 CMD ["python", "app.py"]

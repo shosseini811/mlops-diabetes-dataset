@@ -1,5 +1,6 @@
 pandas
 scikit-learn==1.2.2  # Matching the version used for training
 gradio
+psycopg2-binary
 black
 pylint
